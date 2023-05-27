@@ -180,3 +180,148 @@ footer {
   text-align: center;
   margin: 0 auto;
 }
+
+/* Skills */
+
+
+h1{ /*change font family of heading*/
+	font-family: "Roboto", sans-serif;
+}
+
+li{ /*style the li tag*/
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+.skills{
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #343a40;
+  width: 400px;
+	margin: 60px auto;
+}
+.skills li{ /*set margin of li*/
+	margin: 20px 0;
+}
+
+.bar{ /*style the bar*/
+	background-color: #ffffff;
+	display: block;
+	height: 10px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{ /*style the span tag*/
+	height: 10px;
+	float: left;
+	background-color: #FF3333;
+}
+
+.html{ /*set skills and animation of html*/
+	width: 75%;
+	animation: html 2s;
+}
+
+.css{ /*set skills and animation of css*/
+	width: 75%;
+	animation: css 2s;
+}
+
+.python{ /*set skills and animation of python*/
+	width: 50%;
+	animation: python 2s;
+}
+
+.Rstudio{ /*set skills and animation of jquery*/
+	width: 90%;
+	animation: Rstudio 2s;
+}
+
+.sql{ /*set skills and animation of sql*/
+	width: 60%;
+	animation: sql 2s;
+}
+
+.tableau{ /*set skills and animation of tableau*/
+	width: 85%;
+	animation: tableau 2s;
+}
+
+.msapp{ /*set skills and animation of msapp*/
+	width: 90%;
+	animation: msapp 2s;
+}
+
+@keyframes html{ /*animate html skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 75%;
+	}
+}
+
+@keyframes css{ /*animate css skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 75%;
+	}
+}
+
+@keyframes python{ /*animate python skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes Rstudio{ /*animate Rstudio skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 90%;
+	}
+}
+
+@keyframes sql{ /*animate sql skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 60%;
+	}
+}
+
+@keyframes tableau{ /*animate tableau skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 85%;
+	}
+}
+
+@keyframes msapp{ /*animate msapp skills*/
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 92%;
+	}
+}

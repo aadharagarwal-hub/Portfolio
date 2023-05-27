@@ -59,10 +59,14 @@
       rel="stylesheet"
     />
 
+   
+   
+
     <!-- Custom styles for this template -->
     <link href="css/resume.css" rel="stylesheet" />
 
     <link href="cookie-popup.css" rel="stylesheet">
+
 
 
 
@@ -99,14 +103,20 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#cap"
-              >CAPSTONE</a
+            <a class="nav-link js-scroll-trigger" href="#aboutme"
+              >ABOUT ME</a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#visual"
-              >Information Visualization</a
+            <a class="nav-link js-scroll-trigger" href="#projects"
+              >PROJECTS</a
             >
+          </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills"
+                >SKILLS</a
+              >
+            </li>
         </ul>
       </div>
     </nav>
@@ -123,7 +133,7 @@
     
     <div class="container-fluid p-0">
       <section class="resume-section p-3 p-lg-5 d-flex d-column">
-        <div class="my-auto">
+        <div class="my-auto" id="aboutme">
           <h1 class="mb-0">
             Aadhar
             <span class="text-primary">Agarwal</span>
@@ -144,7 +154,7 @@
 
           </div>
           <p class="mb-5">
-            I am a senior at University of Iowa pursuing a double major. I am passionate about technology and space, both of them pique my interest as new discoveries make them more exciting. I am going to graduate this Spring Semester.
+            I am a recent graduate from The University of Iowa with a doble major. I am passionate about technology and space, both of them pique my interest as new discoveries make them more exciting. I am currently searching for jobs and building my portfolio as a side project.
           </p>
 
           <ul class="list-inline list-social-icons mb-0">
@@ -172,8 +182,9 @@
       </section>
 
       <hr class="m-0" />
-      <!-- Project Experience-->
 
+
+      <!-- Project Experience-->
       <section class="resume-section p-3 p-lg-5 d-flex d-column" id="teaching">
         <div class="my-auto">
           <h2 class="mb-5">Projects</h2>
@@ -182,7 +193,7 @@
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
-              <h3 class="mb-2 text-secondary" id="cap">
+              <h3 class="mb-2 text-secondary" id="projects">
                 BAIS:4150 - Capstone (Team Lead)
               </h3>
 
@@ -193,7 +204,6 @@
               </p>
              
               <p>&nbsp;</p>
-              <p class="top"><a href="#page-top">back to top</a></p>
             </div>
           </div>
           <p class="mb-5">&nbsp;</p>
@@ -202,7 +212,7 @@
             class="d-flex flex-column flex-md-row justify-content-between mb-5"
           >
             <div class="flex-grow-1">
-              <h3 class="mb-2 text-secondary" id="visual">
+              <h3 class="mb-2 text-secondary">
                 BAIS:3140 - Information Visualization
               </h3>
               <p>
@@ -211,7 +221,6 @@
                 I personally worked on a project about Pokemons and showed which ones would be the best to use and why.
               </p>
               <p>&nbsp;</p>
-              <p class="top"><a href="#page-top">back to top</a></p>
             </div>
           </div>
           <p class="mb-5">&nbsp;</p>
@@ -223,6 +232,42 @@
         </div>
       </section>
     </div>
+
+    <!-- Skills -->
+  <section class="resume-section p-3 p-lg-5 d-flex d-column" id="teaching">
+  <div class="skills" id="skills">  <!-- create a div -->
+    <h1>My Skills</h1> <!-- heading -->
+    <li>
+      <h3>HTML</h3><span class="bar"><span class="html"></span></span> <!-- skill bar 1 -->
+    </li>
+  
+    <li>
+      <h3>CSS</h3><span class="bar"><span class="css"></span></span><!-- skill bar 2 -->
+    </li>
+  
+    <li>
+      <h3>PYTHON</h3><span class="bar"><span class="python"></span></span><!-- skill bar 3 -->
+    </li>
+  
+    <li>
+      <h3>RSTUDIO</h3><span class="bar"><span class="Rstudio"></span></span><!-- skill bar 4 -->
+    </li>
+
+    <li>
+      <h3>SQL</h3><span class="bar"><span class="sql"></span></span><!-- skill bar 5 -->
+    </li>
+
+    <li>
+      <h3>Tableau</h3><span class="bar"><span class="tableau"></span></span><!-- skill bar 6 -->
+    </li>
+
+    <li>
+      <h3>MS APPLICATIONS</h3><span class="bar"><span class="msapp"></span></span><!-- skill bar 6 -->
+    </li>
+  </div>
+</section>
+
+
 
     <footer>
       <!-- Other footer content -->
@@ -257,6 +302,10 @@
  <script src="vendor/jquery/jquery.min.js"></script>
  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+ <!-- skills -->
+ <script src="js/skills.js"></script>
+
+
  <!-- Plugin JavaScript -->
  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
@@ -267,6 +316,8 @@
 
 <!-- Cookies Popup-->
 <script src="cookie-popup.js"></script>
+
+
 
 </body>
 
