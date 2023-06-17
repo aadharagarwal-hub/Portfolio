@@ -331,5 +331,12 @@ li{ /*style the li tag*/
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 60%;
+}
+
+.fix {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
 }
